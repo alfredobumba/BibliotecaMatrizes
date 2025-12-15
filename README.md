@@ -1,4 +1,4 @@
-# 📐 Biblioteca de Operações com Matrizes
+# Biblioteca de Operações com Matrizes
 
 **Projeto de Álgebra Linear 2025-2026**  
 IADE - Universidade Europeia  
@@ -6,13 +6,13 @@ Licenciatura em Engenharia Informática
 
 ---
 
-## 📋 Descrição
+## Descrição
 
 Biblioteca de funções em C# para realizar operações com matrizes e suas aplicações. Este projeto aplica conhecimentos de **Álgebra Linear** e **Programação em C#**, implementando operações matriciais fundamentais e suas aplicações práticas.
 
 ---
 
-## 🎯 Funcionalidades
+## Funcionalidades
 
 ### Funções Obrigatórias (9)
 
@@ -47,33 +47,23 @@ Biblioteca de funções em C# para realizar operações com matrizes e suas apli
 
 ---
 
-## 🚀 Como Usar
+## Como Usar
 
 ### Pré-requisitos
 
 - .NET 6.0 ou superior
 - Visual Studio 2022 / VS Code / Rider
 
-### Compilação e Execução
-
 #### Usando .NET CLI
 
 ```bash
-# Clonar repositório
-git clone https://github.com/seu-usuario/biblioteca-matrizes.git
-cd biblioteca-matrizes/BibliotecaMatrizes
 
-# Compilar
-dotnet build
-
-# Executar
-dotnet run
 ```
 
 #### Usando Visual Studio
 
 1. Abrir ficheiro `BibliotecaMatrizes.csproj`
-2. Pressionar `F5` ou clicar em "▶ Start"
+2. Pressionar `F5` ou clicar em "Start"
 
 #### Usando linha de comandos (Windows)
 
@@ -84,7 +74,7 @@ BibliotecaMatrizes.exe
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 BibliotecaMatrizes/
@@ -98,7 +88,7 @@ BibliotecaMatrizes/
 
 ---
 
-## 💻 Exemplos de Uso
+## Exemplos de Uso
 
 ### Exemplo 1: Multiplicação de Matrizes
 
@@ -137,18 +127,7 @@ bool triangular = MatrizOperacoes.Matrix_IsTriangular(M);       // true
 bool simetrica = MatrizOperacoesAdicionais.Matrix_IsSymmetric(M); // true
 ```
 
----
-
-## ✨ Características Técnicas
-
-### Qualidade do Código
-
-✅ **Comentários detalhados** em todas as linhas  
-✅ **Tratamento de erros** robusto  
-✅ **Validação de entradas** completa  
-✅ **Tolerância numérica** para comparações de ponto flutuante (1e-10)  
-✅ **Mensagens de erro** informativas  
-✅ **Código modular** e reutilizável  
+---  
 
 ### Algoritmos Implementados
 
@@ -159,7 +138,7 @@ bool simetrica = MatrizOperacoesAdicionais.Matrix_IsSymmetric(M); // true
 
 ---
 
-## 🧪 Testes
+## Testes
 
 O projeto inclui **15 testes** na função `Main()` que demonstram:
 
@@ -175,7 +154,7 @@ Simplesmente executar o programa - todos os testes são executados automaticamen
 
 ---
 
-## 📚 Aplicações Práticas
+## Aplicações Práticas
 
 ### Sistemas Lineares
 ```csharp
@@ -199,7 +178,7 @@ double[,] An = MatrizOperacoesAdicionais.Matrix_Power(A, n);
 
 ---
 
-## 📖 Documentação Matemática
+## Documentação Matemática
 
 ### Operações Básicas
 
@@ -230,20 +209,7 @@ Para `A = [a b; c d]`:
 - **Triangular Superior**: `A[i,j] = 0` para `i > j`
 - **Simétrica**: `A = A^T` ou `A[i,j] = A[j,i]`
 - **Traço**: `tr(A) = Σ A[i,i]`
- 
-
-### Critérios
-
-✅ Correção das implementações  
-✅ Tratamento de erros  
-✅ Documentação do código  
-✅ Qualidade dos testes  
-✅ Complexidade das funções adicionais  
-✅ Boas práticas de programação  
-
 ---
-
-## 👥 Equipa
 
 **Turma**: [D03]  
 **Grupo**: [4]
@@ -253,17 +219,19 @@ Para `A = [a b; c d]`:
 - [Jose Luemba] - Nº [20251276]
 - [Tiago Pascoal] - Nº [20252041]
 - [Marcio Nhanga] - Nº [20252075]
+- [Elmer Moreso] - Nº [20250922]
+ 
 
 ---
 
-## 📅 Entrega
+## Entrega
 
 **Data Limite**: 19 de dezembro de 2025  
-**Prova de Autoria**: Primeira aula da última semana  
+ 
 
 ---
 
-## 📧 Contactos
+## Contactos
 
 **Professores**:
 - Rodolfo Bendoyro - [Rodolfo.Bendoyro@universidadeeuropeia.pt](mailto:Rodolfo.Bendoyro@universidadeeuropeia.pt)
@@ -271,13 +239,13 @@ Para `A = [a b; c d]`:
 
 ---
 
-## 📝 Licença
+## Licença
 
 Este projeto é desenvolvido para fins académicos no âmbito da UC de Álgebra Linear no IADE - Universidade Europeia.
 
 ---
 
-## 🔗 Recursos
+## Recursos
 
 ### Bibliografia
 - Blyth, T.S., Robertson, E.F., *Basic Linear Algebra*, Springer, 2000
