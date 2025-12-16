@@ -4,6 +4,16 @@
 IADE - Universidade Europeia  
 Licenciatura em Engenharia Informática
 
+**Turma**: [D03]  
+**Grupo**: [4]
+
+**Membros**:
+- [Alfredo Bumba] - Nº [20221435]
+- [Jose Luemba] - Nº [20251276]
+- [Tiago Pascoal] - Nº [20252041]
+- [Marcio Nhanga] - Nº [20252075]
+- [Elmer Moreso] - Nº [20250922]
+
 ---
 
 ## Descrição
@@ -209,26 +219,13 @@ Para `A = [a b; c d]`:
 - **Triangular Superior**: `A[i,j] = 0` para `i > j`
 - **Simétrica**: `A = A^T` ou `A[i,j] = A[j,i]`
 - **Traço**: `tr(A) = Σ A[i,i]`
----
-
-**Turma**: [D03]  
-**Grupo**: [4]
-
-**Membros**:
-- [Alfredo Bumba] - Nº [20221435]
-- [Jose Luemba] - Nº [20251276]
-- [Tiago Pascoal] - Nº [20252041]
-- [Marcio Nhanga] - Nº [20252075]
-- [Elmer Moreso] - Nº [20250922]
  
-
 ---
 
 ## Entrega
 
 **Data Limite**: 19 de dezembro de 2025  
  
-
 ---
 
 ## Contactos
